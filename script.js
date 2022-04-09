@@ -8,7 +8,7 @@ var pos_label = 'cat'
 var neg_label = 'dog'
 
 // Load model
-tf.loadLayersModel('model/model.json').then(e => model=e);
+tf.loadLayersModel('models/model.json').then(e => model=e);
 
 // Process new image
 reader.onload = function (e) {
